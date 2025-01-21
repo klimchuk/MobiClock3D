@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+  <property category="generalFormatting2" name="overrideBasicFormatting" value="1"/>
+  <property category="idl" name="ProcessIDL" value="false"/>
+  <property category="javaFormatting" name="packagePrefixGroups" value="java;javax;BLANK_LINE;java.awt;javax.swing;BLANK_LINE;org;(*)"/>
+  <property category="javadoc" name="custom.tags.1" value="todo;a;To Do:"/>
+  <property category="module" name="ProjectConvertedToEnsureModulesHaveSupportedFeatures" value="1"/>
+  <property category="module" name="ProjectConvertedToUseFilesAndDependenciesAsDefaultContent" value="1"/>
+  <property category="module" name="ProjectConvertedToUseProperModuleDefaults" value="1"/>
+  <property category="module" name="projectConvertedFromModuleExtensionsToModuleFileTypes" value="1"/>
+  <property category="runtime" name="DefaultConfiguration" value="-1"/>
+  <property category="runtime.0" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.0" name="ConfigurationName" value="MIDlet1"/>
+  <property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.micro.MidletRunner"/>
+  <property category="runtime.0" name="midlet.class" value="henson.midp.MIDlet1"/>
+  <property category="runtime.0" name="midlet.emulatordevice" value="DefaultColorPhone"/>
+  <property category="runtime.0" name="midlet.jad" value="MobiClock3D.jad"/>
+  <property category="runtime.0" name="midlet.runoption" value="2"/>
+  <property category="serverservices" name="disabled.services" value="jdatastore"/>
+  <property category="serverservices" name="single.server.name" value="Tomcat 4.0"/>
+  <property category="sys" name="AuthorLabel" value="@author"/>
+  <property category="sys" name="BackupPath" value="bak"/>
+  <property category="sys" name="CheckStable" value="1"/>
+  <property category="sys" name="Company" value=""/>
+  <property category="sys" name="CompanyLabel" value="Company:"/>
+  <property category="sys" name="Copyright" value="Copyright (c) 2004"/>
+  <property category="sys" name="CopyrightLabel" value="Copyright:"/>
+  <property category="sys" name="DefaultPath" value="src"/>
+  <property category="sys" name="Description" value=""/>
+  <property category="sys" name="DescriptionLabel" value="Description:"/>
+  <property category="sys" name="DocPath" value="doc"/>
+  <property category="sys" name="ExcludeClassEnabled" value="0"/>
+  <property category="sys" name="IncludeTestPath" value="1"/>
+  <property category="sys" name="InstanceVisibility" value="2"/>
+  <property category="sys" name="JDK" value="WTK 2.2"/>
+  <property category="sys" name="JvmVersion" value="1.2"/>
+  <property category="sys" name="LastTag" value="0"/>
+  <property category="sys" name="Libraries" value="KXML;kSOAP"/>
+  <property category="sys" name="MakeStable" value="0"/>
+  <property category="sys" name="OutPath" value="classes"/>
+  <property category="sys" name="SourcePath" value="src;test"/>
+  <property category="sys" name="TestPath" value="test"/>
+  <property category="sys" name="Title" value=""/>
+  <property category="sys" name="TitleLabel" value="Title:"/>
+  <property category="sys" name="Version" value="1.0"/>
+  <property category="sys" name="VersionLabel" value="@version"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <node name="MobiClock3D" type="MicroArchive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.micro.archive.MidletArchiver"/>
+    <property category="archiving" name="contentRules.1" value="I:**/*.*"/>
+    <property category="archiving" name="contentRules.2" value="F:src/Ls.png;Ls.png"/>
+    <property category="archiving" name="contentRules.3" value="F:src/Sky.png;Sky.png"/>
+    <property category="archiving" name="contentRules.4" value="F:src/Ground.png;Ground.png"/>
+    <property category="archiving" name="contentRules.5" value="F:src/earthmap.png;earthmap.png"/>
+    <property category="archiving" name="contentRules.6" value="F:src/xws.dat;xws.dat"/>
+    <property category="archiving" name="ignoreClasses.1" value="henson.midp.MIDlet1"/>
+    <property category="archiving" name="libraryStates.1" value="1:KXML"/>
+    <property category="archiving" name="libraryStates.2" value="1:kSOAP"/>
+    <property category="archiving" name="miscTargetPath.1" value="MobiClock3D.jad"/>
+    <property category="archiving" name="obfuscate" value="1"/>
+    <property category="archiving" name="obfuscator" value="RetroGuard for J2ME"/>
+    <property category="archiving" name="targetCompressed" value="1"/>
+    <property category="archiving" name="targetPath" value="MobiClock3D.jar"/>
+    <property category="archiving" name="usingRules" value="1"/>
+    <property category="archiving.micro" name="ignoreClasses.1" value="henson.midp.MIDlet1"/>
+    <property category="archiving.micro" name="microEditionConfiguration" value="CLDC-1.1"/>
+    <property category="archiving.micro" name="microEditionProfile" value="MIDP-2.0"/>
+    <property category="archiving.micro" name="midlet-n-IconPath.1" value=""/>
+    <property category="archiving.micro" name="midlet-n-MainClass.1" value="henson.midp.MIDlet1"/>
+    <property category="archiving.micro" name="midlet-n-Name.1" value="MobiClock3D"/>
+    <property category="archiving.micro" name="midletIgnoreClasses.1" value="henson.midp.MIDlet1"/>
+    <property category="archiving.micro" name="midletName" value="MobiClock3D"/>
+    <property category="archiving.micro" name="midletObfuscate" value="1"/>
+    <property category="archiving.micro" name="midletObfuscator" value="RetroGuard for J2ME"/>
+    <property category="archiving.micro" name="midletVendor" value="UNTEH"/>
+    <property category="archiving.micro" name="midletVersion" value="1.0"/>
+    <property category="archiving.micro" name="obfuscator" value="RetroGuard"/>
+  </node>
+  <file path="MobiClock3D.html"/>
+</project>

@@ -1,0 +1,8 @@
+MIDlet-1: MobiClock3D, , henson.midp.MIDlet1
+MIDlet-Jar-Size: 162559
+MIDlet-Jar-URL: MobiClock3D.jar
+MIDlet-Name: MobiClock3D
+MIDlet-Vendor: UNTEH
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
